@@ -20,9 +20,15 @@ ul {
 }
 
 p {
-  margin: 10px 0;
+  margin: 20px 0;
+  font-size: 25px;
 }
-
+ 
+.myImage{
+  height:280px;
+  width:900px;
+  border-radius:12px;
+}
 .container {
   width: 100%;
   max-width: 960px;

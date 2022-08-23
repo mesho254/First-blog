@@ -40,7 +40,7 @@ function Document({ children, title }) {
         <meta name='viewport' content='width=device-width,initial-scale=1' />
         <Meta />
         <Links />
-        <title>{title ? title : 'Remix Blog'}</title>
+        <title>{title ? title : 'Tottie Blog'}</title>
       </head>
       <body>
         {children}
@@ -57,7 +57,7 @@ function Layout({ children }) {
     <>
       <nav className='navbar'>
         <Link to='/' className='logo'>
-          Remix
+          TottieBlog
         </Link>
 
         <ul className='nav'>
